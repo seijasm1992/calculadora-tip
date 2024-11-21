@@ -1,0 +1,147 @@
+.heading__container {
+  margin-bottom: 4rem;
+}
+.heading {
+  color: #00494d;
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.calc__container {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 2rem;
+  max-width: 80rem;
+}
+
+.calc__result {
+  margin: 2rem;
+  background-color: #00494d;
+  border-radius: 10px;
+  padding: 2rem;
+}
+.calc__input {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+//// Left side <---
+.amount--bill {
+  font-size: 1.6rem;
+  color: #808080;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.input__amount {
+  width: 100%;
+  border: transparent;
+  background-color: #f8f4fa;
+  padding: 1rem;
+  outline: none;
+  text-align: right;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  color: #00494d;
+}
+.input__amount:focus {
+  border: 1px solid #26c0ab;
+}
+.value {
+  margin-bottom: 2rem;
+}
+.calc__btns {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 0.5rem 0 2rem 0;
+}
+.amount {
+  display: flex;
+  justify-content: space-between;
+}
+.amount:nth-child(1) {
+  padding-bottom: 4rem;
+}
+.amount:nth-child(2) {
+  padding-bottom: 6rem;
+}
+.amount__container {
+  display: flex;
+  flex-direction: column;
+}
+.clear {
+  width: 100%;
+  background-color: #75999d;
+  border: transparent;
+  padding: 1.5rem;
+  font-size: 1.3rem;
+  color: #6d6d73;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.tip--amount {
+  margin: 0;
+  color: #fff;
+}
+.person {
+  color: #adc8b0;
+}
+.result {
+  font-size: 3rem;
+  color: #26c0ab;
+  font-weight: 700;
+}
+.btn {
+  color: #fff;
+  background: #00494d;
+  padding: 1.6rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 2rem;
+}
+.select {
+  color: #80808f;
+  font-size: 1.2rem;
+}
+.custom {
+  outline: none;
+  color: #fff;
+  background: #f4fafa;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 2rem;
+  color: #2c2e2e;
+  border: none;
+  text-align: center;
+}
+.custom:focus {
+  border: 1px solid #26c0ab;
+}
+.total {
+  font-size: 3rem;
+  color: #26c0ab;
+  font-weight: 700;
+}
+.input__split {
+  width: 100%;
+  border: transparent;
+  background-color: #f8f4fa;
+  padding: 1rem;
+  outline: none;
+  text-align: right;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  color: #00494d;
+}
+.input__split:focus {
+  border: 1px solid #26c0ab;
+}
