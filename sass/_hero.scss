@@ -12,9 +12,9 @@
   background-color: #fff;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-
   gap: 2rem;
   max-width: 80rem;
+  border-radius: 8px;
 }
 
 .calc__result {
