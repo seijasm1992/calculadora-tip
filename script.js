@@ -6,10 +6,11 @@ const total = document.querySelector('.total');
 const btn = document.querySelector('.clear');
 const customTip = document.querySelector('.custom');
 let tip = 0;
+let tipSelected = 0;
 btnTip.forEach((item) => {
   item.addEventListener('click', function (e) {
     tipSelected = Number(e.target.value);
-    updateTip(tipSelected);
+    updateTip();
   });
 });
 inputValue.addEventListener('input', function (e) {
@@ -41,7 +42,7 @@ function updateTip() {
     tip = Number((billValue * tipSelected) / 100);
     totalPerson = (billValue + tip) / splitCheck;
     result.textContent = (billValue * tipSelected) / 100;
-    total.textContent = totalPerson;
+    total.textContent = totalPerson.toFixed(2);
     btn.style.backgroundColor = '#26C0AB';
   }
 }
